@@ -13,3 +13,8 @@ test("it returns false if the number is not divisble by 2" , () => {
     expect(isDivisbleByTwo (7)).toBe(false);
 
 })
+
+test("it returns true if the number is not divisble by 2" , () => {
+    expect(isDivisbleByTwo (10)).toBe(true);
+
+})
