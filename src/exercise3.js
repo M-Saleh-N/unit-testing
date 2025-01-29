@@ -1,5 +1,5 @@
 function biggestNumber (numbers) {
-    return Math(...numbers); 
+    return Math.max(...numbers); 
 }
 
 module.exports = biggestNumber;
